@@ -1,0 +1,102 @@
+#jumbotron {
+    display: flex;
+    max-width: 100%;
+    padding-top: 6rem;
+    padding-right: 9%;
+    padding-left: 9%;
+}
+
+#jumbotron article:nth-child(1) {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#jumbotron article:nth-child(2) {
+    width: 47%;
+}
+
+#jumbotron div {
+    width: 67%;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#jumbotron div p {
+    font-size: 1rem;
+    /* font-size: 1.15vw; */
+    white-space: nowrap;
+}
+
+#jumbotron button {
+    /* width: 11rem; */
+    font-size: 1.5vw;
+}
+
+#jumbotron > article > p {
+    font-size: 0.88rem;
+    /* font-size: 1.02vw; */
+}
+
+#jumbotron img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    #jumbotron div {
+        width: 85%;
+        margin: 1rem 0;
+    }
+    #jumbotron div p {
+        font-size: 0.8rem;
+    }
+    #jumbotron > article > p {
+        font-size: 0.7rem;
+    }
+    #jumbotron article:nth-child(2) {
+        height: 23rem;
+    }
+    #jumbotron img {
+        width: auto;
+        height: 100%;
+        margin-left: -25%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #jumbotron {
+        flex-direction: column;
+    }
+    #jumbotron article {
+        width: 100% !important;
+    }
+    #jumbotron div {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        margin-top: 1rem;
+        height: 6rem;
+    }
+    #jumbotron div p {
+        font-size: 4vw;
+    }
+    #jumbotron button {
+        font-size: 1rem;
+    }
+    #jumbotron > article > p {
+        display: none;
+    }
+    #jumbotron article:nth-child(2) {
+        height: 18rem;
+        position: relative;
+    }
+    #jumbotron img {
+        position: absolute;
+        top: -5rem;
+        right: -12%;
+    }
+}

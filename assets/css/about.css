@@ -1,0 +1,54 @@
+#about {
+    z-index: 2;
+    width: 100%;
+    padding: 7rem 0 4rem 0;
+    background-color: #fff;
+}
+
+#about h1 {
+    margin: 0 9%;
+    font-weight: 400;
+    font-size: 2.4rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+#about article {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 9%;
+}
+
+#about h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+#about .swiper {
+    width: 20%;
+    height: 100%;
+    margin: 0;
+}
+
+#about .swiper .swiper-wrapper {
+    /* direction: rtl; */
+}
+
+#about .swiper-slide {
+    border-radius: 2rem;
+}
+
+#about .swiper-slide-prev {
+    transform: translate3d(calc(0px + -45.25%), 10px, -150px) rotateZ(-10deg) scale(1) !important;
+}
+
+#about .swiper-slide-next {
+    transform: translate3d(calc(0px + -45.25%), 5px, -150px) rotateZ(10deg) scale(1) !important;
+}

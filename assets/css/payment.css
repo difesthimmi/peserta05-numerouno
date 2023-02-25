@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F5F593;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4rem 9%;
+}
+
+main > section {
+    flex-basis: 50%;
+    overflow: hidden;
+}
+
+main > section:nth-child(2) {
+    margin-left: 15%;
+}
+
+main > section > section {
+    margin-bottom: 1rem;
+}
+
+main section article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+h2 {
+    font-family: "K2D", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0.5rem auto;
+}
+
+h2 span {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 1rem auto;
+}
+
+h4, label {
+    white-space: nowrap;
+}
+
+input {
+    display: none;
+}
+
+label {
+    transition: all 0.3s ease-in-out;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+}
+
+#jadwal {
+    width: 100%;
+    margin-left: 0;
+}
+
+#jadwal h4 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+#jadwal article .radiobutton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem auto;
+}
+
+#jadwal input, #jadwal label {
+    cursor: pointer;
+}
+
+#jadwal input:hover ~ label, #jadwal input:focus ~ label {
+    background-color: #D6EC95;
+}
+
+#jadwal input:checked ~ label {
+    background-color: #fff;
+}
+
+#jadwal label {
+    font-size: 1.2rem;
+    padding: 0.5rem 0.6rem;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+}
+
+#sesi article {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10% 3%;
+    width: 95%;
+    padding-bottom: 2rem;
+}
+
+#sesi input:checked ~ label, #sesi input:hover ~ label {
+    background-color: rgba(201, 232, 150, 0.7);
+}
+
+#sesi label, #sesi input:disabled ~ label {
+    display: block;
+    font-size: 0.8rem;
+    padding: 0.8rem 0;
+    background-color: #fff;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+#sesi input:disabled ~ label {
+    color: rgba(0, 0, 0, 0.4);
+    cursor: not-allowed;
+}
+
+#via input:checked ~ label, #via input:focus ~ label, #via input:hover ~ label {
+    outline: 2px solid black;
+    border-radius: 0.5rem;
+}
+
+#via label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0.5vw;
+    padding: 0.2rem 0.4rem;
+    cursor: pointer;
+}
+
+#via svg {
+    margin-right: 0.2rem;
+    width: 2rem;
+    height: auto;
+}
+
+#via p {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+#purchase article {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#purchase input:checked ~ label, #purchase input:focus ~ label, #purchase input:hover ~ label {
+    outline: 2px solid black;
+    border-radius: 0.5rem;
+}
+
+#purchase label {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    padding: 5% 10%;
+    height: max-content;
+}
+
+#purchase img {
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #fff;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Nunito", sans-serif;
+}
+
+footer article:nth-child(1) {
+    margin-left: 9%;
+}
+
+footer article:nth-child(2) {
+    margin-right: 9%;
+}
+
+footer p:nth-child(1) {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+footer p:nth-child(2) {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+footer button {
+    background-color: transparent;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 5% 15%;
+    transition: all 0.2s ease-in-out
+}
+
+footer button:hover, footer button:focus, footer button:active {
+    outline: 2px solid black;
+}
+
+footer button:active {
+    color: #fff;
+    background-color: #000;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    main > section:nth-child(2) {
+        margin-left: 0;
+    }
+    #sesi article {
+        grid-template-columns: auto auto auto auto auto;
+    }
+    #via svg {
+        width: 1.8rem;
+    }
+    #via {
+        margin-bottom: 3rem;
+    }
+    #via label {
+        margin: 0 0.2vw;
+    }
+    #purchase article {
+        grid-template-columns: auto auto auto auto;
+    }
+    #jadwal {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    main > section > section {
+        margin-bottom: 3rem;
+    }
+    #sesi article {
+        grid-template-columns: auto auto auto;
+    }
+    #via article {
+        width: 90%;
+        margin-left: 1%;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10% 5%;
+    }
+    #via label {
+        margin: 0;
+        padding: 0.1rem 0.2rem;
+    }
+    footer p:nth-child(1) {
+        font-size: 0.8rem;
+    }
+    footer p:nth-child(2) {
+        font-size: 1rem;
+    }
+    footer button {
+        font-size: 1.1rem;
+    }
+}

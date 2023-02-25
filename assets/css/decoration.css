@@ -1,0 +1,400 @@
+.decoration * {
+    position: absolute;
+    z-index: -1;
+    border-radius: 100%;
+}
+
+header .decoration div:nth-child(1) {
+    background: #F9FBAB;
+    filter: blur(150px);
+    width: 656px;
+    height: 625px;
+    right: -183px;
+    top: -64px;
+}
+
+header .decoration div:nth-child(2) {
+    background: rgba(201, 232, 150, 0.7);
+    filter: blur(150px);
+    width: 962px;
+    height: 917px;
+    left: -333px;
+    top: 185px;    
+}
+
+#explaination .decoration div:nth-child(1) {
+    width: 300.68px;
+    height: 300.68px;
+    right: 210px;
+    top: -109.28px;
+    background: linear-gradient(219.57deg, #FFFFFF -21.5%, rgba(255, 255, 255, 0) 112.31%);
+    transform: rotate(91.85deg);
+}
+
+#explaination .decoration div:nth-child(2) {
+    width: 470px;
+    height: 470px;
+    left: 44px;
+    bottom: -128px;
+    background: linear-gradient(219.57deg, #FFFFFF -21.5%, rgba(255, 255, 255, 0) 112.31%);
+}
+
+#explaination .decoration div:nth-child(3) {
+    width: 470px;
+    height: 470px;
+    right: -88.95px;
+    bottom: -287.19px;
+    background: linear-gradient(219.57deg, #FFFFFF -21.5%, rgba(255, 255, 255, 0) 112.31%);
+    transform: rotate(91.85deg);
+}
+
+#trusted .decoration div:nth-child(1) {
+    width: 500px;
+    height: 476px;
+    right: 330px;
+    top: -96px;
+    background: #F9FBAB;
+    filter: blur(150px);
+}
+
+#trusted .decoration div:nth-child(2) {
+    width: 868px;
+    height: 827px;
+    left: -209px;
+    bottom: -209px;
+    background: #F9FBAB;
+    filter: blur(150px);
+}
+
+#trusted .decoration div:nth-child(3) {
+    width: 525px;
+    height: 500px;
+    right: 67px;
+    bottom: -120px;
+    background: rgba(201, 232, 150, 0.7);
+    filter: blur(150px);
+}
+
+#service .decoration div:nth-child(1) {
+    width: 440.89px;
+    height: 440.89px;
+    left: 95px;
+    top: -127px;
+    background: linear-gradient(219.57deg, #FFFFFF -21.5%, rgba(255, 255, 255, 0) 112.31%);
+}
+
+#service .decoration div:nth-child(2) {
+    width: 440.89px;
+    height: 440.89px;
+    right: -93.89px;
+    top: 0;
+    background: linear-gradient(219.57deg, #FFFFFF -21.5%, rgba(255, 255, 255, 0) 112.31%);
+    transform: rotate(91.85deg);
+}
+
+#service .decoration div:nth-child(3) {
+    width: 282.05px;
+    height: 282.05px;
+    left: 440.01px;
+    bottom: -62.97px;
+    background: linear-gradient(219.57deg, #FFFFFF -21.5%, rgba(255, 255, 255, 0) 112.31%);
+    transform: rotate(91.85deg);
+}
+
+#problem .decoration div:nth-child(1) {
+    width: 549.15px;
+    height: 523.55px;
+    right: -97px;
+    top: -20px;
+    background: rgba(201, 232, 150, 0.7);
+    filter: blur(150px);
+}
+
+#problem .decoration div:nth-child(2) {
+    width: 549.15px;
+    height: 523.55px;
+    left: -129px;
+    top: 170.4px;
+    background: rgba(201, 232, 150, 0.7);
+    filter: blur(150px);
+}
+
+#problem .decoration div:nth-child(3) {
+    width: 692.18px;
+    height: 655.98px;
+    left: 452.86px;
+    top: 226.9px;
+    background: #F9FBAB;
+    filter: blur(150px);
+}
+
+#psikolog .decoration div:nth-child(1) {
+    width: 435.3px;
+    height: 435.3px;
+    left: -122px;
+    top: 0;
+    background: linear-gradient(219.57deg, #FFFFFF -21.5%, rgba(255, 255, 255, 0) 112.31%);
+}
+
+#psikolog .decoration div:nth-child(2) {
+    width: 278.48px;
+    height: 278.48px;
+    right: 174.48px;
+    top: 101.1px;
+    background: linear-gradient(219.57deg, #FFFFFF -21.5%, rgba(255, 255, 255, 0) 112.31%);
+    transform: rotate(91.85deg);
+}
+
+#psikolog .decoration div:nth-child(3) {
+    width: 435.3px;
+    height: 435.3px;
+    left: 497.7px;
+    bottom: -266.59px;
+    background: linear-gradient(219.57deg, #FFFFFF -21.5%, rgba(255, 255, 255, 0) 112.31%);
+    transform: rotate(91.85deg);
+}
+
+#about .decoration div:nth-child(1) {
+    width: 868px;
+    height: 827px;
+    right: -229px;
+    top: 210px;
+    background: rgba(201, 232, 150, 0.7);
+    filter: blur(150px);
+}
+
+#about .decoration div:nth-child(2) {
+    width: 868px;
+    height: 827px;
+    left: -23px;
+    bottom: -427px;
+    background: #F9FBAB;
+    filter: blur(150px);
+}
+
+#intruction .decoration div:nth-child(1) {
+    width: 868px;
+    height: 827px;
+    left: -125px;
+    bottom: -67px;
+    background: #F9FBAB;
+    filter: blur(150px);
+}
+
+#intruction .decoration div:nth-child(2) {
+    width: 719px;
+    height: 685px;
+    right: -44px;
+    top: 269px;
+    background: rgba(201, 232, 150, 0.7);
+    filter: blur(150px);
+}
+
+@media screen and (max-width: 768px) {
+    header .decoration div:nth-child(1) {
+        width: 524px;
+        height: 499px;
+        top: -40px;
+        right: -170px;
+    }
+    header .decoration div:nth-child(2) {
+        width: 534px;
+        height: 534px;
+        left: -133px;
+        top: 340px;
+    }
+    #explaination .decoration div:nth-child(1) {
+        width: 175.55px;
+        height: 175.55px;
+        right: -50.05px;
+        top: 58.68px;        
+    }
+}
+
+@media screen and (max-width: 430px) {
+    header .decoration div:nth-child(1) {
+        background: #F9FBAB;
+        filter: blur(150px);
+        width: 361px;
+        height: 344px;
+        right: -77px;
+        top: 82px;
+    }
+    
+    header .decoration div:nth-child(2) {
+        background: rgba(201, 232, 150, 0.7);
+        filter: blur(150px);
+        width: 455px;
+        height: 433px;
+        left: -99px;
+        top: 513px;
+    }
+    
+    #explaination .decoration div:nth-child(1) {
+        width: 167.05px;
+        height: 167.05px;
+        left: 0;
+        top: 95.4px;
+        background: linear-gradient(219.57deg, #FFFFFF -21.5%, rgba(255, 255, 255, 0) 112.31%);
+        transform: rotate(91.85deg);
+    }
+    
+    #explaination .decoration div:nth-child(2) {
+        width: 261.13px;
+        height: 261.13px;
+        left: 50%;
+        top: 303.44px;
+        background: linear-gradient(219.57deg, #FFFFFF -21.5%, rgba(255, 255, 255, 0) 112.31%);
+        transform: rotate(91.85deg);    }
+    
+    #explaination .decoration div:nth-child(3) {
+        width: 261.13px;
+        height: 261.13px;
+        left: 65px;
+        top: 792px;
+        background: linear-gradient(219.57deg, #FFFFFF -21.5%, rgba(255, 255, 255, 0) 112.31%);
+        transform: rotate(91.85deg);
+    }
+    
+    #trusted .decoration div:nth-child(1) {
+        width: 293px;
+        height: 280px;
+        right: 31px;
+        top: 50px;
+        background: #F9FBAB;
+        filter: blur(150px);
+    }
+    
+    #trusted .decoration div:nth-child(2) {
+        width: 456px;
+        height: 435px;
+        right: 120px;
+        top: 255px;
+        background: #F9FBAB;
+        filter: blur(150px);
+    }
+    
+    #trusted .decoration div:nth-child(3) {
+        width: 455px;
+        height: 433px;
+        left: 60px;
+        top: 543px;
+        background: rgba(201, 232, 150, 0.7);
+        filter: blur(150px);
+    }
+    
+    #service .decoration div:nth-child(1) {
+        width: 261.13px;
+        height: 261.13px;
+        left: -35px;
+        top: 32px;
+        background: linear-gradient(219.57deg, #FFFFFF -21.5%, rgba(255, 255, 255, 0) 112.31%);
+    }
+    
+    #service .decoration div:nth-child(2) {
+        width: 261.13px;
+        height: 261.13px;
+        right: -100px;
+        top: 342.44px;
+        background: linear-gradient(219.57deg, #FFFFFF -21.5%, rgba(255, 255, 255, 0) 112.31%);
+        transform: rotate(91.85deg);
+    }
+    
+    #service .decoration div:nth-child(3) {
+        width: 167.05px;
+        height: 167.05px;
+        left: 68.37px;
+        bottom: 57.54px;
+        background: linear-gradient(219.57deg, #FFFFFF -21.5%, rgba(255, 255, 255, 0) 112.31%);
+        transform: rotate(91.85deg);
+    }
+    
+    #problem .decoration div:nth-child(1) {
+        width: 293px;
+        height: 280px;
+        right: 0px;
+        top: 71px;        
+        background: rgba(201, 232, 150, 0.7);
+        filter: blur(150px);
+    }
+    
+    #problem .decoration div:nth-child(2) {
+        width: 455px;
+        height: 433px;
+        left: -143px;
+        top: 591px;
+        background: rgba(201, 232, 150, 0.7);
+        filter: blur(150px);
+    }
+    
+    #problem .decoration div:nth-child(3) {
+        width: 456px;
+        height: 435px;
+        right: 0;
+        top: 250px;
+        background: #F9FBAB;
+        filter: blur(150px);
+    }
+    
+    #psikolog .decoration div:nth-child(1) {
+        width: 261.13px;
+        height: 261.13px;
+        left: -69px;
+        top: 22px;
+        background: linear-gradient(219.57deg, #FFFFFF -21.5%, rgba(255, 255, 255, 0) 112.31%);
+    }
+    
+    #psikolog .decoration div:nth-child(2) {
+        width: 167.05px;
+        height: 167.05px;
+        right: -20.42px;
+        top: 365.4px;
+        background: linear-gradient(219.57deg, #FFFFFF -21.5%, rgba(255, 255, 255, 0) 112.31%);
+        transform: rotate(91.85deg);
+    }
+    
+    #psikolog .decoration div:nth-child(3) {
+        width: 261.13px;
+        height: 261.13px;
+        left: 105.98px;
+        bottom: -100px;
+        background: linear-gradient(219.57deg, #FFFFFF -21.5%, rgba(255, 255, 255, 0) 112.31%);
+        transform: rotate(91.85deg);
+    }
+    
+    #about .decoration div:nth-child(1) {
+        width: 868px;
+        height: 827px;
+        right: -229px;
+        top: 210px;
+        background: rgba(201, 232, 150, 0.7);
+        filter: blur(150px);
+    }
+    
+    #about .decoration div:nth-child(2) {
+        width: 868px;
+        height: 827px;
+        left: -23px;
+        bottom: -427px;
+        background: #F9FBAB;
+        filter: blur(150px);
+    }
+    
+    #intruction .decoration div:nth-child(1) {
+        width: 456px;
+        height: 435px;
+        right: 137px;
+        top: 181px;        
+        background: #F9FBAB;
+        filter: blur(150px);
+    }
+    
+    #intruction .decoration div:nth-child(2) {
+        width: 455px;
+        height: 433px;
+        left: 50px;
+        top: 572px;
+        background: rgba(201, 232, 150, 0.7);
+        filter: blur(150px);
+    }   
+}

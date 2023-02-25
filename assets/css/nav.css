@@ -1,0 +1,181 @@
+nav {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    top: 0;
+    z-index: 3;
+    position: fixed;
+    transition: all 0.2s ease-in-out;
+}
+
+nav h2 {
+    font-family: "K2D", sans-serif;
+    font-size: 1.07rem;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style-type: none;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 1%;
+}
+
+nav ul div {
+    display: flex;
+}
+
+nav ul div:nth-child(1) li:nth-child(1) {
+    margin-left: 0;
+}
+
+nav ul div:nth-last-child(1) li:nth-last-child(1) {
+    margin-right: 0;
+}
+
+nav li {
+    margin: 0 1rem;
+    padding: 4px 0;
+    position: relative;
+}
+
+nav li::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    /* left: 50%;
+    transform: translateX(-50%); */
+    right: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+nav li:hover::after, nav li:active::after, nav li:focus::after {
+    width: 100%;
+}
+
+nav li a {
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #000;
+    text-decoration: none;
+}
+
+nav svg, nav .iconprofile {
+    width: 2.8rem;
+    stroke: #000;
+    align-self: center;
+    margin-right: 9%;
+    margin-left: auto;
+}
+
+nav svg:nth-child(2) {
+    margin-left: 8%;
+    display: none;
+}
+
+nav svg:nth-last-child(1) {
+    margin-left: 1.8rem;
+    margin-right: 8%;
+}
+
+nav svg:nth-last-child(1):hover, nav svg:nth-last-child(1):active, nav svg:nth-last-child(1):focus {
+    /* outline: 1.5px solid #000;
+    border-radius: 100%; */
+    /* fill: #fff; */
+}
+
+nav .iconprofile img {
+    border-radius: 100%;
+    scale: 0.6;
+}
+
+nav #accountmenu {
+    visibility: hidden;
+    position: absolute;
+    width: 30%;
+    top: 4rem;
+    right: 8%;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+nav h6 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 1.6vw;
+}
+
+nav #accountmenu p {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.4vw;
+    margin-bottom: 0.5rem;
+}
+
+.visible {
+    visibility: visible !important;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        visibility: hidden;
+        width: auto;
+        display: block;
+        position: absolute;
+        margin: 4rem auto auto 8%;
+        padding-left: 0;
+        background-color: #fff;
+        padding: 1rem 0;
+        border-radius: 1rem;
+    }
+    nav ul div {
+        flex-direction: column;
+    }
+    nav ul div:nth-child(1) li:nth-child(1) {
+        padding-left: 2rem;
+        width: 100%;
+    }
+    nav li {
+        margin: 0;
+        width: 100%;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+    nav svg:nth-child(2) {
+        margin-left: 8%;
+        display: block;
+    }
+    nav svg:nth-last-child(1) {
+        margin-left: auto;
+    }
+    nav li:hover::after, nav li:active::after, nav li:focus::after {
+        width: 0;
+    }
+    nav li:hover, nav li:active, nav li:focus {
+        background-color: rgba(217, 217, 217, 0.4);
+    }
+}
+
+@media screen and (max-width: 430px) {
+    nav #accountmenu {
+        width: 40%;
+    }
+    nav h6 {
+        font-size: 3vw;
+    }
+    nav #accountmenu p {
+        font-size: 2.5vw;
+    }
+}

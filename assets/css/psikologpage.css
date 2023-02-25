@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: "K2D", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 2% 0;
+}
+
+section {
+    width: 80%;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 15% 3%;
+}
+
+figure {
+    width: 100%;
+    aspect-ratio: 3/4;
+    background-color: slategray;
+    background-size: cover;
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+    border-radius: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    overflow: hidden;
+}
+
+figcaption {
+    background: rgba(0, 0, 0, 0.6);
+    height: 25%;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+h2 {
+    /* font-size: 0.8rem; */
+    /* font-size: 0.92vw; */
+    font-size: 80%;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+p {
+    /* font-size: 0.6rem; */
+    /* font-size: 0.6vw; */
+    font-size: 55%;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        grid-template-columns: auto auto auto;
+        gap: 10% 5%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    h1 {
+        font-size: 1.5rem;
+        margin: 8% 0 10% 0;
+    }
+    section {
+        grid-template-columns: auto auto;
+        gap: 10% 7%;
+    }
+    h2 {
+        font-size: 65%;
+    }
+    p {
+        font-size: 35%;
+    }
+}

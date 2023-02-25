@@ -1,0 +1,124 @@
+#intruction {
+    padding-top: 5rem;
+    padding-right: 9%;
+    padding-left: 9%;
+    padding-bottom: 7rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+#intruction h2 {
+    width: 40%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    /* font-size: 2.5rem; */
+    font-size: 3vw;
+    font-weight: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+#intruction article:nth-child(1) p {
+    width: 40%;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    font-size: 1vw;
+    color: #000000cc;
+}
+
+#intruction article:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+}
+
+#intruction article:nth-child(2) div {
+    flex-basis: 19%;
+}
+
+#intruction h5 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+#intruction article:nth-child(2) p {
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#intruction .number {
+    margin: 4rem auto 2rem auto;
+    width: 5.5rem;
+    aspect-ratio: 1/1;
+    background-color: #fff;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "K2D", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (max-width: 768px) {
+    #intruction {
+        padding-top: 8rem;
+        padding-bottom: 3rem;
+    }
+    #intruction h2 {
+        width: 50%;
+        padding: 0;
+        margin: 1rem auto;
+        font-size: 3.4vw;
+    }
+    #intruction article:nth-child(1) p {
+        width: 60%;
+        font-size: 1.5vw;
+    }
+    #intruction article:nth-child(2) {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #intruction article:nth-child(2) div {
+        flex-basis: 35%;
+    }
+    #intruction .number {
+        width: 4.5rem;
+        margin: 2rem auto 0.5rem auto;
+        font-size: 2.4rem;
+    }
+    #intruction h5 {
+        font-size: 1.1rem;
+    }
+    #intruction article:nth-child(2) p {
+        margin: 0 auto;
+        width: 80%;
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #intruction h2 {
+        font-size: 7vw;
+        width: 100%;
+    }
+    #intruction article:nth-child(1) p {
+        font-size: 4vw;
+        width: 100%;
+    }
+    #intruction article:nth-child(2) {
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+    #intruction article:nth-child(2) div {
+        width: 50%;
+        margin-top: -1rem;
+    }
+    #intruction article:nth-child(2) div:nth-child(2n) {
+        align-self: flex-end;
+    }
+}

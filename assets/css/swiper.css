@@ -1,0 +1,148 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+#service .swiper {
+    height: 12rem;
+}
+
+#service .swiper .swiper-wrapper {
+    align-items: center;
+}
+
+#service .swiper .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 2rem;
+    width: 16rem;
+    /* width: 19%; */
+    transition: all 0.3s ease-in-out;
+}
+
+#service .swiper-slide-active {
+    height: 80%;
+}
+
+#service .swiper-slide-prev, #service .swiper-slide-next {
+    height: 90%;
+    /* transition: all 1s ease-in; */
+}
+
+#service .swiper * {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "Nunito", sans-serif;
+    text-align: left;
+    padding: 0 1%;
+}
+
+#service .swiper h4 {
+    margin: 0.5rem 4%;
+    /* font-size: 1.1rem; */
+    font-size: 1.27vw;
+    font-weight: 700;
+}
+
+#service .swiper p {
+    margin: 0 4% 0.5rem 4%;
+    /* font-size: 0.9rem; */
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    #service .swiper {
+        height: 8rem;
+    }
+    #service .swiper .swiper-slide {
+        width: 10rem;
+        border-radius: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #service .swiper {
+        height: 14rem;
+    }
+    #service .swiper .swiper-slide {
+        width: 18rem;
+    }
+    #service .swiper h4 {
+        font-size: 5.5vw;
+        margin: 0.5rem 10%;
+    }
+    #service .swiper p {
+        font-size: 4vw;
+        margin: 0.5rem 10%;
+    }
+}
+
+#psikolog .swiper {
+    height: 30rem;
+}
+
+#psikolog .swiper-wrapper {
+    padding-left: 2%;
+}
+
+#psikolog .swiper-slide {
+    width: 15rem;
+    height: auto;
+    align-self: flex-start;
+}
+
+#psikolog .swiper-slide:nth-child(2n) {
+    align-self: flex-end;
+}
+
+#psikolog .swiper-slide:nth-last-child(1) {
+    margin-right: 5rem;
+}
+
+#psikolog .swiper-slide div:nth-child(2) {
+    background-color: #fff;
+    border-radius: 1.7rem;
+    margin-top: -5rem;
+    padding-top: 6rem;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 14%;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    /* font-size: 1rem; */
+    font-size: 1.2vw;
+}
+
+@media screen and (max-width: 768px) {
+    #psikolog .swiper {
+        height: 20rem;
+    }
+    #psikolog .swiper-wrapper {
+        padding-left: 0;
+    }
+    #psikolog .swiper-slide {
+        width: 10rem;
+    }
+    #psikolog .swiper-slide div:nth-child(2) {
+        margin-top: -3.5rem;
+        padding-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #psikolog .swiper {
+        margin-top: -2rem;
+    }
+    #psikolog .swiper-slide div:nth-child(2) {
+        padding-top: 5rem;
+        font-size: 4.5vw;
+    }
+    #psikolog .swiper-slide {
+        width: 16rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+}

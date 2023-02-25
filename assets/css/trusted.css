@@ -1,0 +1,196 @@
+#trusted {
+    z-index: 6;
+    background-color: #fff;
+}
+
+#trusted article:nth-child(1) {
+    text-align: center;
+    width: 42%;
+    margin: 0 auto;
+    padding: 11rem 0 22rem 0;
+    /* padding-bottom: 14rem; */
+}
+
+#trusted h2 {
+    font-size: 1.9rem;
+    /* font-size: 2.2vw; */
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    white-space: nowrap;
+    padding: 1rem 0;
+}
+
+#trusted p {
+    font-size: 1rem;
+    /* font-size: 1.2vw; */
+    padding: 0.5rem 0;
+}
+
+#bubble div {
+    position: absolute;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    background-color: slategray;
+    background-position: center;
+    background-size: cover;
+}
+
+#bubble div:nth-child(1) {
+    width: 9vw;
+    top: 5rem;
+    left: 20%;
+}
+
+#bubble div:nth-child(2) {
+    width: 5.6vw;
+    top: 6.3rem;
+    right: 16.5%;
+}
+
+#bubble div:nth-child(3) {
+    width: 4.7vw;
+    top: 19.8rem;
+    left: 13%;
+}
+
+#bubble div:nth-child(4) {
+    width: 5.4vw;
+    top: 24.8rem;
+    left: 26%;
+}
+
+#bubble div:nth-child(5) {
+    width: 4.5vw;
+    top: 23.2rem;
+    left: 50%;
+}
+
+#bubble div:nth-child(6) {
+    width: 7vw;
+    top: 23rem;
+    right: 27%;
+}
+
+#bubble div:nth-child(7) {
+    width: 4.6vw;
+    top: 19.5rem;
+    right: 11.5%;
+}
+
+#bubble div:nth-child(8) {
+    width: 7.6vw;
+    top: 30.5rem;
+    left: 40%;
+}
+
+#bubble div:nth-child(9) {
+    width: 6.9vw;
+    top: 30rem;
+    right: 15%;
+}
+
+@media screen and (max-width: 768px) {
+    #trusted h2 {
+        font-size: 1.5rem;
+    }
+    #trusted p {
+        font-size: 0.8rem;
+        padding: 0;
+    }
+    #trusted article:nth-child(1) {
+        width: 55%;
+    }
+    #bubble div:nth-child(1) {
+        top: 9rem;
+        left: 15%;
+    }
+    #bubble div:nth-child(2) {
+        top: 10.5rem;
+        right: 13%;
+    }
+    #bubble div:nth-child(3) {
+        top: 21rem;
+        left: 8%;
+    }
+    #bubble div:nth-child(4) {
+        top: 25rem;
+        left: 20%;
+    }
+    #bubble div:nth-child(6) {
+        top: 25rem;
+    }
+    #bubble div:nth-child(7) {
+        top: 20rem;
+        right: 8%;
+    }
+    #bubble div:nth-child(8) {
+        top: 29rem;
+        left: 38%;
+    }
+    #bubble div:nth-child(9) {
+        top: 28rem;
+        right: 12%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #trusted article:nth-child(1) {
+        width: 90%;
+        margin: 0 5%;
+        padding: 4rem 0 44rem 0;
+    }
+    #trusted h2 {
+        font-size: 6vw;
+        white-space: pre-wrap;
+    }
+    #trusted p {
+        font-size: 4vw;
+        width: 90%;
+        margin: auto;
+    }
+    #bubble div:nth-child(1) {
+        width: 20vw;
+        top: 21rem;
+        left: 20%;
+    }
+    #bubble div:nth-child(2) {
+        width: 14vw;
+        top: 27rem;
+        right: 30%;
+    }
+    #bubble div:nth-child(3) {
+        width: 10vw;
+        top: 32.5rem;
+        left: 8%;
+    }
+    #bubble div:nth-child(4) {
+        width: 12vw;
+        top: 43rem;
+        left: 15%;
+    }
+    #bubble div:nth-child(5) {
+        width: 9vw;
+        top: 34rem;
+        left: 40%;
+    }
+    #bubble div:nth-child(6) {
+        width: 17vw;
+        top: 39rem;
+        right: 25%;
+    }
+    #bubble div:nth-child(7) {
+        width: 9.8vw;
+        top: 31rem;
+        right: 9%;
+    }
+    #bubble div:nth-child(8) {
+        width: 16vw;
+        top: 47rem;
+        right: 14%;
+        left: auto;
+    }
+    #bubble div:nth-child(9) {
+        width: 18vw;
+        top: 50rem;
+        right: 45%;
+    }
+}

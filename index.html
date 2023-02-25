@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="id" translate="yes">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="numerouno">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=K2D&family=Nunito:wght@300;400&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="./assets/css/index.css" />
+        <link rel="stylesheet" href="./assets/library/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./assets/css/decoration.css">
+        <link rel="stylesheet" href="./assets/css/nav.css" />
+        <link rel="stylesheet" href="./assets/css/header.css" />
+        <link rel="stylesheet" href="./assets/css/jumbotron.css" />
+        <link rel="stylesheet" href="./assets/css/event.css" />
+        <link rel="stylesheet" href="./assets/css/explaination.css" />
+        <link rel="stylesheet" href="./assets/css/trusted.css" />
+        <link rel="stylesheet" href="./assets/css/service.css" />
+        <link rel="stylesheet" href="./assets/css/problem.css" />
+        <link rel="stylesheet" href="./assets/css/psikolog.css" />
+        <link rel="stylesheet" href="./assets/css/intruction.css" />
+        <link rel="stylesheet" href="./assets/css/footer.css" />
+        <link rel="stylesheet" href="./assets/css/swiper.css" />
+        <link rel="stylesheet" href="./assets/css/gsap.css" />
+        <title>Numero Uno - Perbaiki MentalMu</title>
+    </head>
+    <body>
+        <header id="home">
+            <nav>
+                <h2 translate="no">MENTALUS</h2>
+                <svg width="25" height="19" viewBox="0 0 25 19" fill="none" xmlns="http://www.w3.org/2000/svg" class="hamburgericon">
+                    <path d="M1.51855 3.25H20.3125C21.1768 3.25 21.875 2.55176 21.875 1.6875C21.875 0.823242 21.1768 0.125 20.3125 0.125H1.51855C0.699707 0.125 0 0.824707 0 1.64355C0 2.4624 0.699707 3.25 1.51855 3.25ZM23.4375 7.9375H4.64355C3.82471 7.9375 3.125 8.63574 3.125 9.5C3.125 10.3643 3.82471 11.0625 4.64355 11.0625H23.3936C24.3018 11.0625 25 10.3643 25 9.5C25 8.63574 24.3018 7.9375 23.4375 7.9375ZM20.3125 15.75H1.51855C0.699707 15.75 0 16.4482 0 17.2686C0 18.0889 0.699707 18.875 1.51855 18.875H20.3125C21.1768 18.875 21.875 18.1768 21.875 17.3125C21.875 16.4482 21.1768 15.75 20.3125 15.75Z" fill="black"/>
+                </svg>
+                <ul>
+                    <div>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#service" onclick="scrollNav()">Pelayanan</a></li>
+                        <li><a href="#psikolog" onclick="scrollNav()">Psikolog</a></li>
+                    </div>
+                    <div>
+                        <li><a href="#intruction" onclick="scrollNav()">Cara Konsul</a></li>
+                        <li><a href="./about/">Tentang</a></li>
+                    </div>
+                </ul>
+                <div class="iconprofile">
+                    <!-- <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 0C6.75 0 0 6.75 0 15C0 23.25 6.75 30 15 30C23.25 30 30 23.25 30 15C30 6.75 23.25 0 15 0ZM15 5C17.75 5 20 7.75 20 11.25C20 14.75 17.75 17.5 15 17.5C12.25 17.5 10 14.75 10 11.25C10 7.75 12.25 5 15 5ZM23.25 24.375C21.125 26.25 18.125 27.5 15 27.5C11.875 27.5 8.875 26.25 6.75 24.375C6.25 23.875 6.125 23.125 6.625 22.625C8 21 9.875 19.875 11.875 19.25C12.875 19.75 13.875 20 15 20C16.125 20 17.125 19.75 18.125 19.25C20.25 19.875 22 21 23.375 22.625C23.875 23.125 23.875 23.875 23.25 24.375Z" fill="black"/>
+                    </svg> -->
+                    <img src="./assets/images/trusted-bubble-8.jpg" alt="" class="profile" />
+                    <div id="accountmenu">
+                        <h6>Kaylynn Workman</h6>
+                        <p>kaylynnworkman@gmil.com</p>
+                        <h6>Sesi Saya</h6>
+                        <p>4 sesi</p>
+                    </div>
+                </div>
+            </nav>    
+            <section id="jumbotron">
+                <article>
+                    <h1 translate="no">Ubah Mentalmu Jadi Lebih Baik</h1>
+                    <div>
+                        <p>Solusi untuk kesehatan mental.</p>
+                        <button class="mulaikonsul">Mulai Konsul</button>
+                    </div>
+                    <p>Sebanyak satu dari tiga remaja berusia 10-17 tahun di Indonesia memiliki masalah kesehatan mental dalam 12 bulan terakhir. Jumlah itu setara dengan 15,5 juta remaja di dalam negeri.</p>
+                </article>
+                <article>
+                    <img src="./assets/images/numero-uno.png" alt="" loading="eager" />
+                </article>
+            </section>
+            <section id="event">
+                <div>New Event</div>
+                <div><img src="./assets/images/webinar-profile.png" alt="webinar profile" loading="lazy" /></div>
+                <div>
+                    <h3>WEBINAR :</h3>
+                    <h4>Bangkit & Perbaiki Mental Selama Pandemi</h4>
+                    <p>Selama pandemi masalah kesehatan mental meningkat dua kali lipat.</p>
+                    <div>
+                        <div>
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.6746 5.62169C8.46354 5.62169 8.26376 5.65499 8.07096 5.70278C8.38728 5.84403 8.60855 6.15767 8.60855 6.5234C8.60855 7.02125 8.20092 7.42511 7.6977 7.42511C7.19717 7.42511 6.79223 7.02555 6.7874 6.53146C6.47859 6.92888 6.28955 7.42619 6.28955 7.98257C6.28955 9.1845 7.32767 10.2124 8.67407 10.2124C9.88834 10.2124 10.9265 9.18504 10.9265 7.98257C10.927 6.64907 9.88888 5.62169 8.6746 5.62169Z" fill="black"/>
+                                <path d="M8.60854 0.389709C3.8626 0.389709 0.015686 4.23662 0.015686 8.98256C0.015686 13.7285 3.86314 17.5754 8.60854 17.5754C13.3545 17.5754 17.2014 13.728 17.2014 8.98256C17.2014 4.23716 13.3545 0.389709 8.60854 0.389709ZM8.66224 13.8187C7.79812 13.8187 4.79976 10.4181 4.79976 8.13778C4.79976 5.95519 6.5049 4.1464 8.66224 4.1464C10.7122 4.1464 12.4179 5.95519 12.4179 8.13778C12.4173 10.4181 9.41895 13.8187 8.66224 13.8187Z" fill="black"/>
+                            </svg>
+                            <span>CSB MALL, Cirebon</span>
+                        </div>
+                        <div>
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.70793 0.389709C3.96223 0.389709 0.115082 4.23686 0.115082 8.98256C0.115082 13.7283 3.96223 17.5754 8.70793 17.5754C13.4536 17.5754 17.3008 13.7283 17.3008 8.98256C17.3008 4.23686 13.4536 0.389709 8.70793 0.389709ZM10.9025 11.4292C10.9025 11.5117 10.8698 11.5909 10.8114 11.6492C10.7531 11.7075 10.674 11.7403 10.5915 11.7403H5.32265C4.91482 11.7403 4.5237 11.5783 4.23532 11.2899C3.94694 11.0016 3.78493 10.6104 3.78493 10.2026V6.53588C3.78493 6.45338 3.81771 6.37425 3.87605 6.31591C3.93439 6.25757 4.01352 6.22479 4.09602 6.22479H9.36485C9.77267 6.22479 10.1638 6.3868 10.4522 6.67517C10.7405 6.96354 10.9025 7.35466 10.9025 7.76248V11.4292ZM13.6309 11.5378C13.6309 11.5638 13.6238 11.5893 13.6103 11.6115C13.5968 11.6337 13.5774 11.6517 13.5543 11.6636C13.5313 11.6756 13.5054 11.6809 13.4794 11.6791C13.4535 11.6773 13.4286 11.6684 13.4074 11.6534L11.1701 10.0679V7.89714L13.4074 6.31173C13.4286 6.29672 13.4535 6.28782 13.4794 6.28602C13.5054 6.28421 13.5313 6.28957 13.5543 6.3015C13.5774 6.31343 13.5968 6.33147 13.6103 6.35366C13.6238 6.37585 13.6309 6.40132 13.6309 6.4273V11.5378Z" fill="black"/>
+                            </svg>
+                            <span>Via Zoom</span>
+                        </div>
+                        <!-- <a href="...">Selengkapnya...</a> -->
+                    </div>
+                </div>
+                <div><span>16</span><span>Feb</span></div>
+            </section>
+            <section class="decoration"><div></div><div></div></section>
+        </header>
+        <main>
+            <!-- Jangan lupa Dihapus -->
+            <section class="blankview"></section>
+            <section id="explaination">
+                <article>
+                    <h2>Kenapa Kesehatan Mental Harus Diperhatikan?</h2>
+                    <p>Seseorang dengan mental sehat akan berpengaruh pula pada kondisi fisik juga kualitas hidup. Ketika seseorang sejahtera secara psikologis, sosial maupun emosional, maka bisa dikatakan bahwa individu tersebut memiliki mental yang sehat. Mental yang sehat juga merupakan cikal bakal bagi diri kita untuk terus berkembang. Banyak sekali manfaat yang bisa diperoleh dengan adanya kesehatan mental.</p>
+                    <p>Jika kesehatan mental terganggu, pikiran, suasana hati, dan perilaku akan terpengaruh sehingga kondisi fisik dan kualitas hidupmu akan menurun.</p>
+                    <button class="mulaikonsul">Mulai Konsul</button>
+                </article>
+                <article>
+                    <img src="./assets/images/question.png" alt="" loading="lazy" id="img-question" />
+                    <img src="./assets/images/explaination-people.png" alt="" loading="lazy" id="img-teacher-reading-book" />
+                </article>
+                <article class="decoration"><div></div><div></div><div></div></article>
+            </section>
+            <section id="trusted">
+                <article>
+                    <h2>Kami Telah Dipercaya Banyak Orang</h2>
+                    <p>Kami berterimakasih kepada <span>850.000+</span> orang yang telah percaya kepada kami. Kami siap medengarkan dan memahami orang lebih banyak lagi</p>
+                </article>
+                <article id="bubble">
+                    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                </article>
+                <article class="decoration"><div></div><div></div><div></div></article>
+            </section>
+            <section id="service">
+                <article>
+                    <h2>Kami Akan Membantumu</h2>
+                    <p>Untuk kamu yang ragu bercerita karena sulit untuk mengekspresikan diri jangan khawatir kami bisa bantu menanganinya</p>
+                </article>
+                <article class="swiper serviceSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <h4>Bantu menguraikan pikiran kusutmu</h4>
+                            <p>Pikiran yang kusut memang sulit diungkapkan maka dari itu kita akan membantumu untuk menguraikannya.</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <h4>Selalu mendengarkan dan mengerti kamu</h4>
+                            <p>Mendengarkanmu dan mengerti kamu adalah tugas kami.</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <h4>Menemani kamu yang merasa sendirian</h4>
+                            <p>Jika kamu merasa sendirian kami siap menemanimu dan merangkulmu.</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <h4>Bantu membimbingmu dengan nyaman</h4>
+                            <p>Tentu kami akan membutmu merasa aman dan nyaman saat bimbingan berlangsung.</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <h4>Siap menjaga privasimu</h4>
+                            <p>Pikiran yang kusut memang sulit diungkapkan maka dari itu kita akan membantumu untuk menguraikannya.</p>
+                        </div>
+                    </div>
+                </article>
+                <img src="./assets/images/shake-hands.png" alt="" loading="lazy" />
+                <article class="decoration"><div></div><div></div><div></div></article>
+            </section>
+            <section id="problem">
+                <article>
+                    <h2>Permasalahan Yang Bisa Kami Bantu</h2>
+                    <p>Banyak masalah kesehatan yang kita bahas, diantaranya :</p>
+                    <ul class="list-problem">
+                        <li>Konflik Keluarga</li>
+                        <li>Bulliying</li>
+                        <li>Overthinking & Kecemasan Berlebih</li>
+                        <li>Trauma Masa Lalu</li>
+                        <li>Hubungan Percintaan</li>
+                        <li>Depresi</li>
+                        <li>Tidak Mengenal Jati Diri</li>
+                        <li>Anak & Remaja</li>
+                        <li>Karir & Pekerjaan</li>
+                        <li>Kehilangan Motivasi</li>
+                        <li>Gangguan Kepribadian</li>
+                        <li>Dan masih banyak lainnya</li>
+                    </ul>
+                </article>
+                <article>
+                    <img src="./assets/images/problem-man.png" alt="" loading="lazy" />
+                </article>
+                <article class="decoration"><div></div><div></div><div></div></article>
+            </section>
+            <section id="psikolog">
+                <article>
+                    <div class="coverheader">
+                        <h2>Para Psikolog <br />Yang Akan Mendengarkanmu</h2>
+                    </div>
+                    <p>Ayo kenali lebih dekat dengan para psikolog kami yang siap membantumu dalam kesehatan mental. Para psikolog kami juga merupakan psikolog yang profesional, lho.</p>
+                    <div class="psikologButton">
+                        <button class="swiper-button-prev-custom">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14 0C6.26719 0 0 6.26719 0 14C0 21.7328 6.26719 28 14 28C21.7328 28 28 21.7328 28 14C28 6.26719 21.7328 0 14 0ZM16.9859 18.8891C17.6695 19.5727 17.6695 20.6801 16.9859 21.3637C16.3023 22.0473 15.1949 22.0473 14.5113 21.3637L8.38633 15.2387C8.04453 14.8969 7.875 14.4484 7.875 14C7.875 13.5516 8.0459 13.1042 8.3877 12.763L14.5127 6.63797C15.1963 5.95437 16.3037 5.95437 16.9873 6.63797C17.6709 7.32156 17.6709 8.42898 16.9873 9.11258L12.1023 14L16.9859 18.8891Z" fill="white"/>
+                            </svg>
+                        </button>
+                        <button class="swiper-button-next-custom">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14 0C6.26719 0 0 6.26719 0 14C0 21.7328 6.26719 28 14 28C21.7328 28 28 21.7328 28 14C28 6.26719 21.7328 0 14 0ZM19.6109 15.2359L13.4859 21.3609C12.8023 22.0445 11.6949 22.0445 11.0113 21.3609C10.3277 20.6773 10.3277 19.5699 11.0113 18.8863L15.9031 14L11.0141 9.11094C10.3305 8.42734 10.3305 7.31992 11.0141 6.63633C11.6977 5.95273 12.8051 5.95273 13.4887 6.63633L19.6137 12.7613C19.9555 13.1031 20.125 13.5516 20.125 14C20.125 14.4484 19.9555 14.8969 19.6109 15.2359Z" fill="white"/>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+                <article class="swiper psikologSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="profile-psikolog"></div>                     
+                            <div>
+                                <h4>John Due</h4>
+                                <ul>
+                                    Spesialis:
+                                    <li>Anak & Remaja</li>
+                                    <li>Spesialis</li>
+                                    <li>Spesialis</li>
+                                    <li>Spesialis</li>
+                                </ul>
+                                <a href="...">Lihat Kontennya</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="profile-psikolog"></div>                            
+                            <div>
+                                <h4>John Due</h4>
+                                <ul>
+                                    Spesialis:
+                                    <li>Anak & Remaja</li>
+                                    <li>Spesialis</li>
+                                    <li>Spesialis</li>
+                                    <li>Spesialis</li>
+                                </ul>
+                                <a href="...">Lihat Kontennya</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="profile-psikolog"></div>                            
+                            <div>
+                                <h4>John Due</h4>
+                                <ul>
+                                    Spesialis:
+                                    <li>Anak & Remaja</li>
+                                    <li>Spesialis</li>
+                                    <li>Spesialis</li>
+                                    <li>Spesialis</li>
+                                </ul>
+                                <a href="...">Lihat Kontennya</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="profile-psikolog"></div>                            
+                            <div>
+                                <h4>John Due</h4>
+                                <ul>
+                                    Spesialis:
+                                    <li>Anak & Remaja</li>
+                                    <li>Spesialis</li>
+                                    <li>Spesialis</li>
+                                    <li>Spesialis</li>
+                                </ul>
+                                <a href="...">Lihat Kontennya</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="profile-psikolog"></div>                            
+                            <div>
+                                <h4>John Due</h4>
+                                <ul>
+                                    Spesialis:
+                                    <li>Anak & Remaja</li>
+                                    <li>Spesialis</li>
+                                    <li>Spesialis</li>
+                                    <li>Spesialis</li>
+                                </ul>
+                                <a href="...">Lihat Kontennya</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="decoration"><div></div><div></div><div></div></article>
+            </section>
+            <section id="intruction">
+                <article>
+                    <h2>Langkah Mudah Untuk Konsultasi</h2>
+                    <p>Melakukan konsultasi dengan kami tidak sulit kok, kamu hanya perlu mengikuti langkah-langkah di bawah ini</p>
+                </article>
+                <article>
+                    <div class="step">
+                        <div class="number">1</div>
+                        <h5>Buat Akun</h5>
+                        <p>Sebelum melakukan pemesanan kamu harus mempunyai akun terlebih dahulu.</p>
+                    </div>
+                    <div class="step">
+                        <div class="number">2</div>
+                        <h5>Pilih Psikolog & Sesi</h5>
+                        <p>Pilih psikolog yang sesuai dengan permasalahan kamu, kemudian jadwalkan konsultasimu.</p>
+                    </div>
+                    <div class="step">
+                        <div class="number">3</div>
+                        <h5>Lakukan Pembayaran</h5>
+                        <p>Jangan lupa lakukan pembayaran kamu dengan layanan yang tersedia.</p>
+                    </div>
+                    <div class="step">
+                        <div class="number">4</div>
+                        <h5>Mulai Konsultasi</h5>
+                        <p>Kamu sudah bisa konsultasi dengan psikolog dan jadwal yang telah kamu atur.</p>
+                    </div>
+                </article>
+                <article class="decoration"><div></div><div></div></article>
+            </section>
+        </main>
+        <footer>
+            <section>
+                <article>
+                    <h5>MENTALUS</h5>
+                    <p>Kami adalah perusahaan yang menangani masalah kesehatan mental.</p>
+                </article>
+                <article>
+                    <div>
+                        <h5>Technology</h5>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>Download</h5>
+                        <ul>
+                            <li><a href="...">Android App</a></li>
+                            <li><a href="...">IOS App</a></li>
+                            <li><a href="...">Desktop App</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>Help?</h5>
+                        <ul>
+                            <li><a href="...">Privacy</a></li>
+                            <li><a href="...">Team & Conditions</a></li>
+                            <li><a href="...">Reporting</a></li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+            <section>
+                <div class="sosmed-account">
+                    <a href="...">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.3725 14.4442L14.4465 11.9999L10.3725 9.55566V14.4442Z" fill="white"/>
+                            <path d="M12 0C5.373 0 0 5.37225 0 12C0 18.6278 5.373 24 12 24C18.627 24 24 18.627 24 12C24 5.373 18.627 0 12 0ZM18.516 12.5258C18.516 13.6508 18.3855 14.7758 18.3855 14.7758C18.3855 14.7758 18.258 15.7343 17.868 16.155C17.3722 16.7085 16.8172 16.7115 16.5623 16.7445C14.7382 16.884 12 16.8885 12 16.8885C12 16.8885 8.6115 16.8555 7.569 16.749C7.27875 16.6912 6.6285 16.7078 6.132 16.155C5.74125 15.7335 5.6145 14.7758 5.6145 14.7758C5.6145 14.7758 5.484 13.6515 5.484 12.5258V11.4713C5.484 10.3463 5.6145 9.222 5.6145 9.222C5.6145 9.222 5.742 8.2635 6.132 7.84125C6.62775 7.287 7.18275 7.284 7.43775 7.2525C9.261 7.1115 11.997 7.1115 11.997 7.1115H12.003C12.003 7.1115 14.739 7.1115 16.5623 7.2525C16.8165 7.284 17.3722 7.287 17.868 7.8405C18.2587 8.26275 18.3855 9.22125 18.3855 9.22125C18.3855 9.22125 18.516 10.3463 18.516 11.4713V12.5258Z" fill="white"/>
+                        </svg>
+                    </a>
+                    <a href="...">
+                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.5 0C5.873 0 0.5 5.373 0.5 12C0.5 18.627 5.873 24 12.5 24C19.127 24 24.5 18.627 24.5 12C24.5 5.373 19.127 0 12.5 0ZM18.83 8.14275C18.7745 8.23575 18.4895 8.562 18.185 8.85975C17.669 9.372 17.6413 9.4275 17.6413 9.8565C17.6413 10.5173 17.3285 11.8965 17.015 12.6503C16.4345 14.0663 15.191 15.5288 13.9468 16.2653C12.1963 17.2987 9.86525 17.5605 7.9025 16.9545C7.2485 16.749 6.12425 16.2278 6.12425 16.1348C6.12425 16.1063 6.46475 16.0695 6.88025 16.0597C7.7465 16.0417 8.61275 15.8003 9.34925 15.3705L9.8465 15.072L9.275 14.877C8.46425 14.5972 7.73675 13.9545 7.55225 13.3492C7.49675 13.1535 7.5155 13.1437 8.03075 13.1437L8.56475 13.1348L8.11325 12.9202C7.5785 12.6495 7.09025 12.1943 6.851 11.7277C6.67625 11.3925 6.455 10.545 6.5195 10.4797C6.53825 10.452 6.73175 10.5082 6.95225 10.5825C7.5875 10.8158 7.67075 10.7595 7.3025 10.368C6.61175 9.66 6.3995 8.60775 6.731 7.611L6.88775 7.164L7.496 7.76925C8.74025 8.9895 10.205 9.71625 11.8813 9.93L12.3417 9.9855L12.314 9.52875C12.2315 8.346 12.959 7.26525 14.111 6.846C14.5348 6.69675 15.254 6.67875 15.7235 6.8085C15.908 6.864 16.2575 7.05075 16.5065 7.218L16.958 7.5255L17.4552 7.3665C17.732 7.28325 18.1003 7.143 18.266 7.05C18.4228 6.966 18.5607 6.9195 18.5607 6.94725C18.5607 7.1055 18.2195 7.64625 17.9345 7.944C17.5468 8.36325 17.6577 8.40075 18.4408 8.121C18.9125 7.96575 18.9223 7.96575 18.83 8.14275Z" fill="white"/>
+                        </svg>
+                    </a>
+                    <a href="...">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0C5.373 0 0 5.373 0 12C0 18.627 5.373 24 12 24C18.627 24 24 18.627 24 12C24 5.373 18.627 0 12 0ZM14.616 11.9992H12.9368V18.0922H10.419V12H9.16125V9.9H10.419V8.63925C10.419 6.92625 11.1292 5.90775 13.1467 5.90775H14.8267V8.00775H13.7767C12.9915 8.00775 12.939 8.30175 12.939 8.8485L12.9368 9.9H14.8387L14.616 11.9992Z" fill="white"/>
+                        </svg>
+                    </a>
+                    <a href="...">
+                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.1315 12.1042C16.1315 14.0422 14.5093 15.6142 12.5083 15.6142C10.5088 15.6142 8.88575 14.0415 8.88575 12.1042C8.88575 11.7562 8.939 11.421 9.0365 11.1037L8.12825 10.9065V16.0072C8.12825 16.263 8.23775 16.3717 8.49275 16.3717H16.508C16.763 16.3717 16.8725 16.263 16.8725 16.0072V10.9065L15.9815 11.1037C16.0783 11.4217 16.1315 11.7562 16.1315 12.1042Z" fill="white"/>
+                            <path d="M12.5082 14.247C13.801 14.247 14.849 13.2312 14.849 11.9782C14.849 10.7252 13.801 9.70947 12.5082 9.70947C11.2155 9.70947 10.1675 10.7252 10.1675 11.9782C10.1675 13.2312 11.2155 14.247 12.5082 14.247Z" fill="white"/>
+                            <path d="M12.5 0C5.873 0 0.5 5.37225 0.5 12C0.5 18.6278 5.873 24 12.5 24C19.127 24 24.5 18.627 24.5 12C24.5 5.373 19.127 0 12.5 0ZM18.3298 16.3717C18.3298 17.1945 17.6952 17.829 16.8725 17.829H8.12825C7.3055 17.829 6.671 17.1945 6.671 16.3717V7.6275C6.671 6.80475 7.3055 6.17025 8.12825 6.17025H16.8725C17.6952 6.17025 18.3298 6.80475 18.3298 7.6275V16.3717Z" fill="white"/>
+                            <path d="M16.508 7.62744H15.05C14.8483 7.62744 14.6855 7.79019 14.6855 7.99194V9.44919C14.6855 9.65094 14.8483 9.81369 15.05 9.81369H16.5073C16.709 9.81369 16.8718 9.65094 16.8718 9.44919V7.99194C16.8718 7.79094 16.709 7.62744 16.508 7.62744Z" fill="white"/>
+                        </svg>
+                    </a>
+                </div>
+                <div>Copyright 2023 | Design by Numero Uno</div>
+            </section>
+        </footer>
+    </body>
+    <script src="./assets/library/swiper-bundle.min.js"></script>
+    <script src="./assets/library/gsap.min.js"></script>
+    <script src="./assets/library/ScrollTrigger.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/swiper.js"></script>
+    <script src="./assets/js/gsap.js"></script>
+    <script src="./assets/js/nav.js"></script>
+    <script src="./assets/js/trusted.js"></script>
+    <script src="./assets/js/injectimage.js"></script>
+</html>

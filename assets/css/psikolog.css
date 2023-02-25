@@ -1,0 +1,170 @@
+#psikolog {
+    z-index: 3;
+    background-color: #F5F593;
+    display: flex;
+    padding: 9.5rem 0 4rem 0;
+}
+
+#psikolog article:nth-child(1) {
+    margin-left: 9%;
+    flex-basis: 35%;
+}
+
+#psikolog .coverheader {
+    overflow: hidden;
+}
+
+#psikolog h2 {
+    /* font-size: 3rem; */
+    font-size: 3.5vw;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin: 1.5rem 0;
+    overflow: hidden;
+}
+
+#psikolog article > p {
+    font-size: 0.98rem;
+    color: rgba(0, 0, 0, 0.8);
+    width: 90%;
+    margin-top: 2rem;
+}
+
+#psikolog .psikologButton {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    margin: 3.5rem 0;
+}
+
+#psikolog button {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 100%;
+    margin: 0 1rem;
+}
+
+#psikolog button:hover {
+    cursor: pointer;
+}
+
+#psikolog .psikologButton svg {
+    width: 100%;
+    height: 100%;
+    stroke: #fff;
+    padding: 0.2rem;
+}
+
+#psikolog article:nth-child(2) {
+    flex-basis: 65%;
+}
+
+#psikolog .profile-psikolog {
+    position: relative;
+    width: 60%;
+    aspect-ratio: 1/1;
+    background-color: rgba(0, 0, 0, 0.5);;
+    border-radius: 100%;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+/* #psikolog .profile-psikolog::before:hover {
+    position: absolute;
+    content: "selengkapnya";
+    font-size: 4rem;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+#psikolog .profile-psikolog:hover {
+    background-blend-mode: multiply;
+    cursor: pointer;
+}
+
+#psikolog h4 {
+    font-family: "Nunito", sans-serif !important;
+    font-weight: 700;
+    /* font-size: 1.25rem; */
+    font-size: 1.5vw;
+    padding: 0.2rem 0;
+}
+
+#psikolog ul {
+    list-style-type: none;
+    padding-bottom: 0.5rem;
+}
+
+#psikolog li::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(201, 232, 150, 0.7);
+    border-radius: 100%;
+    margin-right: 0.7rem;
+}
+
+#psikolog a {
+    text-decoration: none;
+    color: rgba(0, 22, 219, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+    #psikolog {
+        padding: 12.5rem 0 7rem 0;
+    }
+    #psikolog h2 {
+        font-size: 4.4vw;
+    }
+    #psikolog article > p {
+        font-size: 0.77rem;
+    }
+    #psikolog .psikologButton {
+        margin: 2rem 0 0 auto;
+        width: 100%;
+    }
+    #psikolog button {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 0 0.8rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #psikolog {
+        flex-direction: column;
+        padding: 7rem 0 7rem 0;
+    }
+    #psikolog article:nth-child(1) {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    #psikolog h2 {
+        text-align: center;
+        font-size: 7vw;
+    }
+    #psikolog h2 br {
+        display: none;
+    }
+    #psikolog article p {
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
+    }
+    #psikolog .profile-psikolog {
+        width: 60%;
+    }
+    #psikolog h4 {
+        font-size: 6vw;
+    }
+    #psikolog button {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    #psikolog .psikologButton {
+        transform: translateY(28rem);
+    }
+}
